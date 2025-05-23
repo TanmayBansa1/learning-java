@@ -24,7 +24,7 @@ dependencies {
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
     implementation("com.fasterxml.jackson.core:jackson-databind:2.19.0")
     // https://mvnrepository.com/artifact/org.mindrot.bcrypt/bcrypt
-    implementation("org.mindrot.bcrypt:bcrypt:0.3")
+    implementation 'org.mindrot:jbcrypt:0.4'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

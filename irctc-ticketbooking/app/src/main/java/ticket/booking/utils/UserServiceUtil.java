@@ -11,6 +11,6 @@ public class UserServiceUtil {
     }
 
     public static String hashPassword(String password){
-        return BCrypt.hashpw(password,BCrypt.gensalt());   
+        return BCrypt.hashpw(password,BCrypt.gensalt());
     }
 }
